@@ -3,9 +3,8 @@ namespace Laravelos\ModuleInstaller;
 
 use Composer\Package\PackageInterface;
 use Composer\Installer\LibraryInstaller;
-use Composer\Installers\BaseInstaller;
 
-class Installer extends BaseInstaller
+class Installer extends LibraryInstaller
 {
 
     protected $locations = array(
