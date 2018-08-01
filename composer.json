@@ -1,0 +1,23 @@
+{
+    "name": "laravelos/module-installer",
+    "description": "一个laravelos的模块安装器",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zxh",
+            "email": "phpzxh@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"Laravelos\\ModuleInstaller\\": "src/"}
+    },
+    "extra": {
+        "class": "Laravelos\\ModuleInstaller\\Plugin"
+    },
+    "require": {
+        "composer-plugin-api": "1.1.0",
+        "composer/installers": "1.5.0"
+    }
+}
