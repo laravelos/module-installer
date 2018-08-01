@@ -3,6 +3,7 @@
     "description": "一个laravelos的模块安装器",
     "type": "composer-plugin",
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "zxh",
