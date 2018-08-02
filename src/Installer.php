@@ -29,7 +29,7 @@ class Installer extends LibraryInstaller
             $name = $prettyName;
         }
 
-        $availableVars = $this->inflectPackageVars(compact('name', 'vendor', 'type'));
+        // $availableVars = $this->inflectPackageVars(compact('name', 'vendor', 'type'));
 
         $extra = $package->getExtra();
         if (!empty($extra['installer-name'])) {

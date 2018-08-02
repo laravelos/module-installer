@@ -10,7 +10,6 @@
             "email": "phpzxh@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {"Laravelos\\ModuleInstaller\\": "src/"}
     },
