@@ -19,9 +19,9 @@ class Installer extends LibraryInstaller
      */
     public function getInstallPath(PackageInterface $package, $frameworkType = '')
     {
-        $type = $this->package->getType();
+        $type = $package->getType();
 
-        $prettyName = $this->package->getPrettyName();
+        $prettyName = $package->getPrettyName();
         if (strpos($prettyName, '/') !== false) {
             list($vendor, $name) = explode('/', $prettyName);
         } else {
